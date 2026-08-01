@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>You're Invited</title>
+    <style>
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+            font-family:Arial,sans-serif;
+        }
+
+        .card{
+            background:white;
+            padding:40px;
+            width:450px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 0 20px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            color:#e91e63;
+        }
+
+        p{
+            font-size:18px;
+            color:#555;
+        }
+
+        button{
+            padding:15px 30px;
+            font-size:18px;
+            background:#ff4081;
+            color:white;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#d81b60;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+
+<h1>💌 Special Invitation 💌</h1>
+
+<p>
+Hello <b>Priya</b>,<br><br>
+
+Someone has prepared something special just for you on this Friendship Day.
+Click the button below to open your surprise.
+</p>
+
+<button onclick="openWish()">Open Invitation ❤️</button>
+
+</div>
+
+<script>
+function openWish(){
+    window.location.href="index.html";
+}
+</script>
+
+</body>
+</html>
